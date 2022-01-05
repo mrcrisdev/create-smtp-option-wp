@@ -1,5 +1,5 @@
 <?php 
-
+// có thể chèn username + password trực tiếp thay vì dùng option page của ACF.
 function send_smtp_email( $phpmailer ) {
   $phpmailer->IsSMTP();
   $phpmailer->Host       = "smtp.gmail.com";
